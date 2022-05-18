@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './stories/Button';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <button class='w-20 h-20 bg-black rounded-xl 
+        hover:rotate-180 active:animate-in
+        transition-all ease-in-out duration-500'>hello</button>
       </header>
     </div>
   );
